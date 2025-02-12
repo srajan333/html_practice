@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    font-family: Georgia;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+}
+h3{
+    color: black;
+}
+a{
+    color: rgb(000, green, 000);
+    text-decoration: none;
+}
+input{
+    color: rgb(000, 000, 000);
+}
+p{
+    line-height: 30px;
+}
+b{
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: white;
+}

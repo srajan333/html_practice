@@ -1,24 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Practice of HTML</title>
-</head>
-<body>
-    <p>My name is <b>Srajan Bajpai</b> & I am learning <i>Web Development</i> from <b>Apna college</b></p>
-    <h1>Srajan &reg;</h1> 
-    <b>srajan</b>
-    <b>sasas</b><b>erer</b>
-    <a href="www.google.com">google</a>
-    <br>
-    <img src="@wallandiamin (4).jpg" height="100px" width="100px">
-    <br>
-    <video src="videoplayback.mp4" controls></video>
-    <p>Hello my name is srajan bajpia</p>
-    <p>my name is srajan bajpai</p>
-    <h1>a<sup>2</sup>+b<sup>2</sup>+c<sup>2</sup></h1>
-    <h1>a &lt; b</h1>
-    <p>srajan &nbsp; &nbsp; &nbsp;bajpai</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!--Make a Table of Topper Students of a Class(Show Marks in GPA & Percantage)-->
+    <table border="black">
+      <content>Toppers of Class</content>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+          <th>GPA</th>
+          <th>Percantage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kshitij Singh</td>
+          <td>7.8</td>
+          <td>74%</td>
+        </tr>
+        <tr>
+          <td>Aman Malhotra</td>
+          <td>8.2</td>
+          <td>78%</td>
+        </tr>
+        <tr>
+          <td>Vivan Mishra</td>
+          <td>7.2</td>
+          <td>68%</td>
+        </tr>
+        <tr>
+          <td>Aditi Mistry</td>
+          <td>8.9</td>
+          <td>85%</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <!--Make a form of Youtube Search & a Google Search Redirection -->
+    <form action="https://www.youtube.com/results?s">
+      <label for="search">Search Here</label>
+      <input
+        type="text"
+        id="search"
+        placeholder="What are you watching today?"
+        name="search_query"
+      />
+      <br />
+      <button>Search</button>
+      <hr />
+      <form action="https://www.google.com/search">
+        <label for="Doubt">Search Here</label>
+        <input type="text" placeholder="SEARCH HERE" id="Doubt" name="q" />
+        <br />
+        <button>Go</button>
+      </form>
+      <hr />
+    </form>
+    <form action="/action">
+      Choose your Subjects:
+      <br />
+      <input type="checkbox" id="Subjects" value="Math" name="Subject" />
+      <label for="Subjects">Math</label>
+      <br />
+      <input type="checkbox" id="Subjects" value="science" name="Subject" />
+      <label for="Subjects">Science</label>
+      <br />
+      <input type="checkbox" id="Subjects" value="Physics" name="Subject" />
+      <label for="Subjects">Physics</label>
+      <br />
+      <input type="checkbox" id="Subjects" value="chemistry" name="Subject" />
+      <label for="Subjects">Chemistry</label>
+      <br />
+      <button>Submit</button>
+    </form>
+    <hr />
+    <form>
+      What is the Capital of India?
+      <br />
+      <input type="radio" id="Quiz" name="Answer" value="Delhi" />
+      <label for="Quiz">Delhi</label>
+      <br />
+      <input type="radio" id="Quiz" name="Answer" value="Mumbai" />
+      <label for="Quiz">Mumbai</label>
+      <br />
+      <input type="radio" id="Quiz" name="Answer" value="Pune" />
+      <label for="Quiz">Pune</label>
+      <br />
+      <input type="radio" id="Quiz" name="Answer" value="Kerala" />
+      <label for="Quiz">Kerala</label>
+      <br />
+      <button>Submit</button>
+    </form>
+    <hr />
+    <form action="/server">
+      <select id="Profession" name="Profession">
+        <option>Select your Option</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Developer">Developer</option>
+        <option value="Student">Student</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <form action="/server">
+      <label for="volume">Set Volume</label>
+      <input
+        type="range"
+        id="volume"
+        name="Volume"
+        min="0"
+        max="100"
+        value="0"
+      />
+      <button>Submit</button>
+    </form>
+    <form>
+      <label for="Fruits">Choose your Favorite Fruit</label>
+      <select id="Fruits" name="Fav Fruit">
+        <option>Fruit</option>
+        <option value="Mango">Mango</option>
+        <option value="Apple">Apple</option>
+        <option value="Pineapple">Pineapple</option>
+        <option value="Peach">Peach</option>
+      </select>
+    </form>
+    <form action="/server">
+      <label for="Mango">Mango</label>
+      <input type="checkbox" id="Mango" name="Fruit" value="Mango" />
+      <label for="Apple">Apple</label>
+      <input type="checkbox" id="Apple" name="Fruit" value="Apple" />
+      <label for="Peach">Peach</label>
+      <input type="checkbox" id="Peach" name="Fruit" value="Peach" />
+      <label for="Banana">Banana</label>
+      <input type="checkbox" id="Banana" name="Fruit" value="Banana" />
+      <button>Submit</button>
+    </form>
+    <form>
+      <label for="feedback">Write your feedback here:</label>
+      <br />
+      <textarea id="feedback" name="Feedback" rows="10" cols="50"></textarea>
+      <button>Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
 </html>

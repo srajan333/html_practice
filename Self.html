@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Assessment</title>
+</head>
+<body>
+    <form action="/server">
+        Excitement-Meter:
+        <input type="range" min="0" max="100" value="0" name="Excitement">
+        <hr>
+        What is the Capital of India?
+        <br>
+        <input type="radio" id="Delhi" name="Capital" value="Delhi">
+        <label for="Delhi">Delhi</label>
+        <br>
+        <input type="radio" id="Mumbai" name="Capital" value="Mumbai">
+        <label for="Mumbai">Mumbai</label>
+        <br>
+        <input type="radio" id="Pune" name="Capital" value="Pune">
+        <label for="Pune">Pune</label>
+        <br>
+        <input type="radio" id="Kerala" name="Capital" value="Kerala">
+        <label for="Kerala">Kerala</label>
+        <br>
+        <hr>
+        <label for="Profession">Your Profession:</label>
+        <br>
+        <select id="Profession" name="Profession">
+            <option>Profession</option>
+            <option value="Student">Student</option>
+            <option value="Developer">Developer</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Trader">Trader</option>
+        </select>
+        <br>
+        <label for="Age">Are you 18+</label>
+        <input type="checkbox" id="Age" name="Are_you" value="Yes">
+        <hr>
+        <button type="submit">Submit</button>
+        <hr>
+    </form>
+</body>
+</html>
