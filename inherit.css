@@ -1,0 +1,15 @@
+div{
+    background-color: blue;
+}
+form{
+    background-color: yellow;
+}
+p{
+    color: black;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}

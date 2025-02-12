@@ -1,92 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .hero {
-            padding: 50px;
-            background: white;
-        }
-        .hero h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .hero p {
-            font-size: 18px;
-            color: #666;
-        }
-        .cta {
-            margin-top: 20px;
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-        }
-        .features {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 40px;
-        }
-        .feature {
-            background: white;
-            padding: 20px;
-            width: 200px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="header">My Awesome Product</div>
-    
-    <div class="hero">
-        <h1>Revolutionize Your Daily Life</h1>
-        <p>Experience the best features with our innovative product.</p>
-        <a href="#" class="cta">Buy Now</a>
-    </div>
-    
-    <div class="features">
-        <div class="feature">
-            <h3>Feature 1</h3>
-            <p>Short description of feature 1.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Chapter2</title>
+    <link rel="stylesheet" href="new.css">
+  </head>
+  <body>
+    <header>
+        <h1>Quora 
+            <button id="login">Log in</button>
+            <button id="signup">Sign up</button>
+        </h1>
+        <div>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
         </div>
-        <div class="feature">
-            <h3>Feature 2</h3>
-            <p>Short description of feature 2.</p>
-        </div>
-        <div class="feature">
-            <h3>Feature 3</h3>
-            <p>Short description of feature 3.</p>
-        </div>
-    </div>
-    
-    <div class="footer">&copy; 2025 My Product. All Rights Reserved.</div>
-</body>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/following">Following</a></li>
+                <li><a href="/answer">Answer</a></li>
+                <li><a href="/spaces">Spaces</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <p>
+        Adam &nbsp;&nbsp;
+        <a class="follow" href="/adam">Follow /abc</a></span>
+        </p>
+        <h3>What is the highest salary for a spacex engineer?</h3>
+        <span>
+            <button>+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
+
+        <p>
+        Bob &nbsp;&nbsp;
+        <a class="follow" href="/bob">Follow xyz</a>
+        </p>
+        <h3>What is the syllabus for JEE 2024?</h3>
+        <span>
+            <button>+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
+
+        <p>
+        Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="follow" href="/catlyn">Follow pqr</a>
+        </p>
+        <h3>Why is the sky blue?</h3>
+        <span>
+            <button>+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
+
+        <p>
+            Dan &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="follow" href="/dan">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button>+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+    </main>
+  </body>
 </html>
