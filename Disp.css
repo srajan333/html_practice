@@ -1,0 +1,32 @@
+h1{
+    border: 2px solid black;
+    width: 33.33%;
+    /* padding: 20px;
+    padding-left: 50px; */
+}
+#first{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin:50px;
+}
+#second{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 10%;
+    
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 2em;
+
+}
