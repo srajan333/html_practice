@@ -65,64 +65,84 @@ footer a:hover {
 .a{
     height: 300px;
     width: 200px;
-    background-image: url(shoes.jpg);
-    background-size: contain;
+    background-image: url(foot.jpg);
+    background-size: contain; 
     border-radius: 20px;
     display: inline-block;
     margin: 15px;
     box-shadow: 2px 2px 8px black;
-    transition: ease-in  0.7s;
+    transition: ease-in  0.5s;
+    
 }
 .a:hover{
 box-shadow: 5px 5px 20px black;
-
-
+background-image: url(shoes.jpg);
+background-size: contain;
 }
 .b{
     height: 300px;
     width: 200px;
-    background-image: url(glasses.jpg);
+    background-image: url(eye.png);
+    background-size: contain; 
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 8px black;
+    transition: ease-in  0.5s;
+}
+.b:hover{
+box-shadow: 5px 5px 20px black;
+background-image: url(glasses.jpg);
+background-size: contain;
+}
+.c{
+    height: 300px;
+    width: 200px;
+    background-image: url(cosmetic-font-41.webp);
     background-size: contain;
     border-radius: 20px;
     display: inline-block;
     margin: 15px;
     box-shadow: 2px 2px 8px black;
-    transition: ease-in  0.7s;
-}
-.b:hover{
-box-shadow: 5px 5px 20px black;
-
-
-}
-.c{
-    height: 300px;
-    width: 200px;
-    background-image: url(cosmetics.avif);
-    background-size: cover;
-    border-radius: 20px;
-    display: inline-block;
-    margin: 15px;
-    box-shadow: 2px 2px 8px black;
-    transition: ease-in  0.7s;
+    transition: ease-in  0.5s;
 }
 .c:hover{
 box-shadow: 5px 5px 20px black;
-
-
+background-image: url(cosmetics.avif);
+background-size: cover;
 }
 .d{
     height: 300px;
     width: 200px;
-    background-image: url(daniel-korpai-hbTKIbuMmBI-unsplash.jpg);
-    background-size: cover;
+    background-image: url(watches.png);
+    background-size: contain;
+    background:cover;
     border-radius: 20px;
     display: inline-block;
     margin: 15px;
     box-shadow: 2px 2px 8px black;
-    transition: ease-in  0.7s;
+    transition: ease-in  0.5s;
 }
 .d:hover{
 box-shadow: 5px 5px 20px black;
-
-
+background-image: url(daniel-korpai-hbTKIbuMmBI-unsplash.jpg);
+background-size: cover;
+}
+.e{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: 1ms;
+    background-image: url(newlaunch.jpg);
+    background-size: contain;
+}
+.e:hover{
+    /* margin-left: 700px;
+    border-radius: 50%; */
+    /* background-image: url(newlaunch.jpg); */
+    /* background-size: contain; */
+    box-shadow: 5px 5px 16px black;
 }
