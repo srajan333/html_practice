@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background: lightblue;
+    color: brown;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    color: #ff9800;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+    transition: background 0.5s;
+    
+}
+.main-content:hover {
+    background: #e0e0e0;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+footer a:hover {
+    color: white;
+}
+.a{
+    height: 300px;
+    width: 200px;
+    background-image: url(shoes.jpg);
+    background-size: contain;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 8px black;
+    transition: ease-in  0.7s;
+}
+.a:hover{
+box-shadow: 5px 5px 20px black;
+
+
+}
+.b{
+    height: 300px;
+    width: 200px;
+    background-image: url(glasses.jpg);
+    background-size: contain;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 8px black;
+    transition: ease-in  0.7s;
+}
+.b:hover{
+box-shadow: 5px 5px 20px black;
+
+
+}
+.c{
+    height: 300px;
+    width: 200px;
+    background-image: url(cosmetics.avif);
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 8px black;
+    transition: ease-in  0.7s;
+}
+.c:hover{
+box-shadow: 5px 5px 20px black;
+
+
+}
+.d{
+    height: 300px;
+    width: 200px;
+    background-image: url(daniel-korpai-hbTKIbuMmBI-unsplash.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 8px black;
+    transition: ease-in  0.7s;
+}
+.d:hover{
+box-shadow: 5px 5px 20px black;
+
+
+}
