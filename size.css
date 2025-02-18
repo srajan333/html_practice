@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.contain{
+    border: 2px solid black;
+    height: 400px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+}
+div{
+    height: 70px;
+    width: 100px;
+    /* flex-basis: 250px; */
+    text-align: center;
+    font-size: 1.0em;
+}
+.yellow{
+    flex-grow: 1;
+}
+.blue{
+    flex-grow: 1;
+}
