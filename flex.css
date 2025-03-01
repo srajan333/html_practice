@@ -4,16 +4,16 @@
     border: 2px solid black;
     margin: 10px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: flex-start;
     flex-wrap: wrap; 
     align-items: flex-start;
-     align-content: flex-end;
+    align-content: flex-end;
     
 }
 div{
     height: 50px;
-    width: 100px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 25px;

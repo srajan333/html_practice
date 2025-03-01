@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.cont{
+    margin: 10px auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.black{
+    height: 110px;
+    width: 110px;
+    margin-top: 2px;
+    border: 2px solid white;
+}
+.white{
+    height: 110px;
+    width: 110px;
+    margin-top: 2px;
+    border: 2px solid black;
+}
