@@ -1,0 +1,14 @@
+.header{
+  margin-bottom: 20px;
+  height: 80px;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo{
+  justify-content: flex-start;
+  
+}
